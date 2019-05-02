@@ -1,10 +1,13 @@
-from hicmatrix import HiCMatrix
-import hicmatrix.utilities
-import scipy.sparse
-from matplotlib import cm
-from matplotlib import colors
-import matplotlib.pyplot as plt
-import numpy as np
+import sys
+# sys.exit(0) #### disable until hicmatrix fixes python2 support
+if 0:
+    from hicmatrix import HiCMatrix
+    import hicmatrix.utilities
+    import scipy.sparse
+    from matplotlib import cm
+    from matplotlib import colors
+    import matplotlib.pyplot as plt
+    import numpy as np
 
 from . GenomeTrack import GenomeTrack
 
